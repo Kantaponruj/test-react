@@ -31,7 +31,7 @@ export default function AboutPage() {
   ];
   return (
     <div className="w-full">
-      <div className="flex flex-wrap justify-center gap-4 pt-0">
+      <div className="flex flex-wrap justify-start gap-4 pt-0">
         {medicineName.map((name) => (
           <MedicineCard key={name} name={name}></MedicineCard>
         ))}
