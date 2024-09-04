@@ -23,6 +23,7 @@ export const SecondaryNavbar = ({ name }: { name: string }) => {
       <div className="flex w-full items-center">
         <Button
           className="flex-none text-gray-600"
+          style={{ padding: "0px" }}
           type="link"
           onClick={() => router.back()}
         >
