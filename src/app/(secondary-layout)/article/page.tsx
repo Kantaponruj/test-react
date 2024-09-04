@@ -23,7 +23,7 @@ export default function ArticlePage({
         />
       </div>
       <p className="text-[#464646] mb-4">{articles.length} บทความ</p>
-      <div className="grid grid-flow-row auto-rows-auto row-auto gap-4">
+      <div className="flex flex-wrap gap-4">
         {articles.map((article) => (
           <ArticalCard
             key={article.key}
